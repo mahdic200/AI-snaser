@@ -19,13 +19,20 @@ so the simplest hypothesis function  is :
 > from now on , instead of thetas , we say parameters .
 
 # Cost function
+indicates how much bad is a hypothesis function between other hypothesis functions .
+### $$J(\theta_0,\theta_1)={1 \over 2 } \sum^{m} _ {i=1} \left(h _ {\theta} \left(x^{(i)}\right) - y^{(i)} \right)^{2}$$
+## Our Goal
+find a set of thetas to minimize the $J(\theta_0,\theta_1)$ function .
+### $$\underset{{\theta _ 0}, {\theta _ 1}}{\text minimize} \ J(\theta _ 0, \theta _ 1)  $$
 
-
-
-
-
-
-
+# simple cost function $(\theta_0=0)$
+our hypothesis function with $\theta=0$ will be .
+### $$\theta_1=1 \to h_\theta(x)=x$$
+so our cost function be like :
+### $$J(\theta_1)$$
+proof :
+### $$J(\theta_0,\theta_1)= {1 \over 2 } \sum^{m} _ {i=1} \left(h _ {\theta} \left(x^{(i)}\right) - y^{(i)} \right)^{2}$$
+### $$={1 \over 2 } \sum^{m} _ {i=1} \left(x^{(i)} - y^{(i)} \right)^{2}={1 \over 2 } \sum^{m} _ {i=1} \left(0 \right)^{2}=0$$
 
 
 
