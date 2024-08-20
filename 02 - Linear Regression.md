@@ -31,8 +31,7 @@ our hypothesis function with $\theta=0$ will be .
 so our cost function be like :
 ### $$J(\theta_1)$$
 proof :
-### $$J(\theta_0,\theta_1)= {1 \over 2 } \sum^{m} _ {i=1} \left(h _ {\theta} \left(x^{(i)}\right) - y^{(i)} \right)^{2}$$
-### $$={1 \over 2 } \sum^{m} _ {i=1} \left(x^{(i)} - y^{(i)} \right)^{2}={1 \over 2 } \sum^{m} _ {i=1} \left(0 \right)^{2}=0$$
+### $$\begin{align}J(\theta_0,\theta_1)= {1 \over 2 } \sum^{m} _ {i=1} \left(h _ {\theta} \left(x^{(i)}\right) - y^{(i)} \right)^{2} \\ ={1 \over 2 } \sum^{m} _ {i=1} \left(x^{(i)} - y^{(i)} \right)^{2}={1 \over 2 } \sum^{m} _ {i=1} \left(0 \right)^{2}=0\end{align}$$
 
 
 
